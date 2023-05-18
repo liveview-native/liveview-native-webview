@@ -8,7 +8,7 @@
 
 Add this library as a package to your LiveView Native application's Xcode project using its repo URL. Then, create an `AggregateRegistry` to include the provided `WebViewRegistry` within your native app builds:
 
-```swift
+```diff
 import SwiftUI
 import LiveViewNative
 + import LiveViewNativeWebView
